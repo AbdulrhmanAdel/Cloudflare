@@ -9,12 +9,16 @@
 }
 
 
-.card__primary .card__header {
+.card--primary .card__header {
     background: $color-primary;
     color: #fff;
 }
 
-.card__secondary .card__header {
+.card--secondary .card__header {
     background: $color-secondary;
     color: #fff;
+}
+
+.card--secondary .badge--secondary {
+    background: #02cdf1;
 }
