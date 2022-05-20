@@ -26,9 +26,11 @@
     font-style: normal;
 }
 
-.quote__line {
-    position: relative;
-    bottom: 40px;
+.quote__footer .media__image {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 @media screen and (min-width: 1024px) {
@@ -44,5 +46,4 @@
         font-size: 1.6rem;
 
     }
-
 }
