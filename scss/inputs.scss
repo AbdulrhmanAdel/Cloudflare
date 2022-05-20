@@ -1,0 +1,35 @@
+.input {
+    border-radius: $border-radius;
+    border: 1px solid $color-border;
+    color: $color-headings;
+    font-size: 2rem;
+    outline: none;
+    padding: 1.5rem 3.5rem;
+}
+
+.input::placeholder {
+    color: #cdcdd7;
+    font-size: 2rem;
+}
+
+.input-group {
+    border: 1px solid $color-border;
+    display: flex;
+
+}
+
+.input-group .input {
+    border:  none;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+    margin: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
+}
