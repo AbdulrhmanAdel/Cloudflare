@@ -1,7 +1,7 @@
 /* Topography */
 body {
     font-family: Inter, Arial, Helvetica, sans-serif;
-    color: var(--color-body);
+    color: $color-body;
     font-size: 2.4rem;
     line-height: 1.5;
 
@@ -11,7 +11,7 @@ body {
 h1,
 h2,
 h3 {
-    color: var(--color-headings);
+    color: $color-headings;
     margin-bottom: 1rem;
 }
 

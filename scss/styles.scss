@@ -14,15 +14,6 @@ $color-body: #918ca4;
 $color-border: #ccc;
 
 $border-radius: 30px;
-@import 'topography.scss';
-@import 'badges.scss';
-@import 'icons.scss';
-@import 'links.scss';
-@import 'lists.scss';
-@import 'buttons.scss';
-@import 'inputs.scss';
-@import 'card.scss';
-@import 'plans.scss';
 
 html {
     font-size: 62.5%;
@@ -33,3 +24,15 @@ html {
 *::before {
     box-sizing: border-box;
 }
+
+
+@import 'topography.scss';
+@import 'badges.scss';
+@import 'icons.scss';
+@import 'links.scss';
+@import 'lists.scss';
+@import 'buttons.scss';
+@import 'inputs.scss';
+@import 'card.scss';
+@import 'plans.scss';
+@import 'media.scss';

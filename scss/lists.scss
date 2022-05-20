@@ -2,7 +2,7 @@
 .list {
     list-style: none;
     padding-left: 0;
-    color: var(--color-headings);
+    color: $color-headings;
 }
 
 .list--inline .list__item {
