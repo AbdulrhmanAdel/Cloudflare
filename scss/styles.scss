@@ -10,6 +10,7 @@ $color-accent-light: lighten($color-accent, 10%);
 
 $color-headings: #1b0760;
 $color-body: #918ca4;
+$color-body-darker: #5c5577;
 
 $color-border: #ccc;
 
@@ -36,3 +37,4 @@ html {
 @import 'card.scss';
 @import 'plans.scss';
 @import 'media.scss';
+@import 'quote.scss';
