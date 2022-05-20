@@ -1,0 +1,30 @@
+/* Variables*/
+$color-primary: #2584ff;
+$color-primary-light: lighten($color-primary, 10%);
+
+$color-secondary: #00d9ff;
+$color-secondary-light: lighten($color-secondary, 10%);
+
+$color-accent: #ff3400;
+$color-accent-light: lighten($color-accent, 10%);
+
+$color-headings: #1b0760;
+$color-body: #918ca4;
+
+@import 'topography.scss';
+@import 'badges.scss';
+@import 'icons.scss';
+@import 'links.scss';
+@import 'lists.scss';
+@import 'buttons.scss';
+@import 'inputs.scss';
+
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
