@@ -9,6 +9,11 @@ html {
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* Topography */
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
@@ -536,6 +541,36 @@ a {
 .collapsible--expanded .collapsible__content {
   max-height: 100vh;
   opacity: 1;
+}
+
+.block {
+  padding: 6rem 2rem;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background-color: #1a1a1a;
+  color: #7b858b;
+}
+
+.block--dark .block__heading {
+  color: #fff;
+}
+
+.block--skewed-right {
+  padding-bottom: 10rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+}
+
+.block--skewed-left {
+  clip-path: polygon(0% 0%, 0% 100%, 100% 80%, 100% 0%);
 }
 
 /*# sourceMappingURL=styles.css.map */

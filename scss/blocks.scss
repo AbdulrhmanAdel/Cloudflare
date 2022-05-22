@@ -1,0 +1,32 @@
+$padding-vertical: 6rem;
+
+.block {
+    padding: $padding-vertical 2rem;
+}
+
+.block__header {
+    text-align: center;
+}
+.block__heading {
+    margin-top: 0;
+}
+
+
+.block--dark {
+    background-color: #1a1a1a;
+    color: #7b858b;
+}
+
+.block--dark .block__heading {
+    color: #fff;
+}
+
+.block--skewed-right {
+    padding-bottom: calc($padding-vertical + 4rem);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%);
+}
+
+
+.block--skewed-left {
+    clip-path: polygon(0% 0%, 0% 100%, 100% 80%, 100% 0%)
+}
