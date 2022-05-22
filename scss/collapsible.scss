@@ -18,7 +18,7 @@
     opacity: 0;
     transition:
         opacity 0.5s linear,
-        max-height 0.5s linear;
+        max-height 1s linear;
 }
 
 .collapsible--expanded .collapsible__chevron {
@@ -26,6 +26,6 @@
 }
 
 .collapsible--expanded .collapsible__content {
-    max-height: max-content;
+    max-height: 100vh;
     opacity: 1;
 }
